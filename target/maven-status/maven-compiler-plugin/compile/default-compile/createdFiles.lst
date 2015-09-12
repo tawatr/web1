@@ -1,3 +1,7 @@
+web/User.class
+web/Hibernate.class
+web/Zipcode.class
 web/Book.class
+web/Database.class
 web/Application.class
 web/Demo.class

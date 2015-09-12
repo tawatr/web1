@@ -31,7 +31,7 @@ public class Demo {
 	@RequestMapping("/test2") @ResponseBody
 	ArrayList test2() {
 		ArrayList list = new ArrayList();
-	
+	// To send array list
 		Book  b1 = new Book();
 		b1.title = "Hello World";
 		b1.price = 199;
@@ -42,6 +42,8 @@ public class Demo {
 		
 		list.add(b1);
 		list.add(b2);
+                
+                
 		return list;
 	}
 }
